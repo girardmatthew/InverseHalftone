@@ -245,7 +245,7 @@ if __name__ == "__main__":
         val_list = gen_list('/input/val/')
         train(train_list, val_list, debug_mode=True)
     elif args.mode == 'test':
-        test_list = gen_list('/project/dllau_uksr/mbgi222/InverseHalftoneExp6/Test_mode/input/')
+        test_list = gen_list('../input/')
         checkpoint_dir = "model"
         evaluate(test_list, checkpoint_dir)
     else:
