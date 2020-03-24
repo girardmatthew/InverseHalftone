@@ -9,7 +9,7 @@ from util import *
 in_channels = 1
 out_channels = 1
 n_epochs = 150
-batch_size = 40
+batch_size = 10
 learning_rate = 0.0002
 beta1 = 0.9
 
